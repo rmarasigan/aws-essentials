@@ -60,3 +60,9 @@ A hybrid deployment is a way to connect infrastructure and applications between 
 
 ### On-premises
 The deployment of resources on-premises, using virtualization and resource management tools, is sometimes called the “private cloud.” On-premises deployment doesn’t provide many of the benefits of cloud computing but is sometimes sought for its ability to provide dedicated resources. In most cases this deployment model is the same as legacy IT infrastructure while using application management and virtualization technologies to try and increase resource utilization.
+
+## Resources
+* [What Is Cloud Computing?](https://aws.amazon.com/what-is-cloud-computing/)
+* [Types of Cloud Computing](http://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-computing.html)
+* [Cloud Computing with AWS](https://aws.amazon.com/what-is-aws/)
+* [Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.pdf)
