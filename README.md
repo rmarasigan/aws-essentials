@@ -6,3 +6,4 @@
 * [AWS Global Infrastructure](technical/global-infrastructure.md)
 * [Interacting with AWS](technical/interacting-with-aws.md)
 * [Security and the AWS Shared Responsibility Model](technical/security-and-shared-responsibility.md)
+* [Protect the AWS Root User](technical/protect-aws-root-user.md)
