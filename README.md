@@ -5,3 +5,4 @@
 * [What is AWS?](technical/what-is-aws.md)
 * [AWS Global Infrastructure](technical/global-infrastructure.md)
 * [Interacting with AWS](technical/interacting-with-aws.md)
+* [Security and the AWS Shared Responsibility Model](technical/security-and-shared-responsibility.md)
