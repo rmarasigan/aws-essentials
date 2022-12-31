@@ -6,3 +6,4 @@
 * [Interacting with AWS](interacting-with-aws.md)
 * [Security and the AWS Shared Responsibility Model](security-and-shared-responsibility.md)
 * [Protect the AWS Root User](protect-aws-root-user.md)
+* [Identity and Access Management](aws-iam.md)
