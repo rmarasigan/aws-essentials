@@ -9,6 +9,7 @@
 * [Identity and Access Management](module-1/aws-iam.md)
 * [Role-Based Access in AWS](module-1/role-based-access.md)
 * [Compute as a Service](module-2/compute-as-a-service.md)
+* [Amazon Elastic Compute Cloud](module-2/amazon-ec2.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
