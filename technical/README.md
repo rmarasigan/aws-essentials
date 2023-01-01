@@ -8,3 +8,47 @@
 * [Protect the AWS Root User](module-1/protect-aws-root-user.md)
 * [Identity and Access Management](module-1/aws-iam.md)
 * [Role-Based Access in AWS](module-1/role-based-access.md)
+* [Compute as a Service](module-2/compute-as-a-service.md)
+
+## Knowledge Check
+1. What are the four main factors you should take into consideration when choosing a Region?
+   
+   a. Latency, high availability, taxes and compliance
+   
+   **b. Latency, price, service availability, and compliance**
+   
+   c. Latency, taxes, speed, and compliance
+   
+   d. Latency, security, high availability, and resiliency
+
+2. Which of the following best describes the relationship among Regions, Availability Zones, and data centers?
+
+   a. Availability Zones are clusters of Regions. Regions are clusters of data centers. 
+
+   b. Data centers are cluster of Availability Zones. Regions are clusters of Availability Zones.
+
+   **c. Regions are clusters of Availability Zones. Availability Zones are clusters of data centers.**
+
+   d. Data centers are clusters of Regions. Regions are clusters of Availability Zones.
+
+3. Which of the following is a benefit of cloud computing?
+
+   a. Run and maintain your own data centers
+
+   b. Increase time to market
+
+   c. Overprovision for scale
+
+   **d. Go global in minutes**
+
+4. Which of the following is a best practice when securing an AWS root user? (Select TWO.)
+
+   **a. Enable multi-factor authentication (MFA) for the root user**
+
+   b. Use the root user for routine administrative tasks
+
+   c. Share the root user credentials with trusted colleagues
+
+   **d. Disable or delete the access keys associated with the root user**
+
+   e. Place root user password in a secure container
