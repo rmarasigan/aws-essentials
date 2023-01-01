@@ -25,7 +25,7 @@ Maintaining roles is more efficient than maintaining users. When you assume a ro
 
 User access keys only expire when you or the account admin rotates the keys. User login credentials expire if you applied a password policy to your account that forces users to rotate their passwords.
 
-## Consider using an Identity Provider
+### Consider using an Identity Provider
 Using an IdP, whether it's an AWS service such as AWS Single Sign-On or a third-party identity provider, provides a single source of truth for all identities in your organization. You no longer have to create separate IAM users in AWS. You can instead use IAM roles to provide permissions to identities that are federated from your IdP. 
 
 ### Consider AWS Single Sign-On
