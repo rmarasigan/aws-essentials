@@ -10,6 +10,9 @@
 * [Role-Based Access in AWS](module-1/role-based-access.md)
 * [Compute as a Service](module-2/compute-as-a-service.md)
 * [Amazon Elastic Compute Cloud](module-2/amazon-ec2.md)
+* [Amazon EC2 Instance Lifecycle](module-2/aws-ec2-instance-lifecycle.md)
+* [Container Services](module-2/container-services.md)
+* [Serverless](module-2/serverless.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?

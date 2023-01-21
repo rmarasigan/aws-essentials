@@ -11,3 +11,6 @@
 * [Role-Based Access in AWS](technical/module-1/role-based-access.md)
 * [Compute as a Service](technical/module-2/compute-as-a-service.md)
 * [Amazon Elastic Compute Cloud](technical/module-2/amazon-ec2.md)
+* [Amazon EC2 Instance Lifecycle](technical/module-2/aws-ec2-instance-lifecycle.md)
+* [Container Services](technical/module-2/container-services.md)
+* [Serverless](technical/module-2/serverless.md)
