@@ -13,6 +13,7 @@
 * [Amazon EC2 Instance Lifecycle](module-2/aws-ec2-instance-lifecycle.md)
 * [Container Services](module-2/container-services.md)
 * [Serverless](module-2/serverless.md)
+* [AWS Lambda](module-2/aws-lambda.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
@@ -56,3 +57,23 @@
    **d. Disable or delete the access keys associated with the root user**
 
    e. Place root user password in a secure container
+
+5. What does an Amazon EC2 instance type indicate?
+
+   a. Instance placement and instance size
+
+   **b. Instance family and instance size**
+
+   c. Instance tenancy and instance billing
+
+   d. Instance AMI and networking speed
+
+6. Which of the following is true about serverless?
+
+ a. You must provision and manage servers
+
+ b. You must manually scale serverless resources
+
+ c. You must manage availability and fault tolerance
+
+ **d. You never pay for idle resources**

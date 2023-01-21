@@ -14,3 +14,4 @@
 * [Amazon EC2 Instance Lifecycle](technical/module-2/aws-ec2-instance-lifecycle.md)
 * [Container Services](technical/module-2/container-services.md)
 * [Serverless](technical/module-2/serverless.md)
+* [AWS Lambda](technical/module-2/aws-lambda.md)
