@@ -5,3 +5,5 @@
 * [Elastic Load Balancing](elastic-load-balancing.md)
 * [AWS Messaging Services](aws-messaging-services.md)
 * [Serverless Compute Services](serverless-compute-services.md)
+* [AWS Container Services](aws-container-services.md)
+* [Global Infrastructure](aws-global-infrastructure.md)
