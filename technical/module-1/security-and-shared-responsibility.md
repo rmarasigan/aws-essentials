@@ -15,7 +15,7 @@ Below are examples of controls that are managed by AWS, AWS Customers and/or bot
 **Customer Specific** – Controls which are solely the responsibility of the customer based on the application they are deploying within AWS services. Examples include:
 * Service and Communications Protection or Zone Security which may require a customer to route or zone data within specific security environments.
 
-![security-and-shared-responsibility](assets/img/security-and-shared-responsibility.png)
+![security-and-shared-responsibility](../assets/img/security-and-shared-responsibility.png)
 
 ## AWS Responsibility
 AWS is responsible for *security of the cloud*. This means AWS protects and secures the infrastructure that runs the services offered in the AWS Cloud. AWS is responsible for:
