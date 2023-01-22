@@ -7,3 +7,6 @@
 * [Serverless Compute Services](serverless-compute-services.md)
 * [AWS Container Services](aws-container-services.md)
 * [Global Infrastructure](aws-global-infrastructure.md)
+* [Networking](networking.md)
+* [Storage Types](storage-types.md)
+* [AWS Databases](aws-databases.md)
