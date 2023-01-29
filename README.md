@@ -15,6 +15,7 @@
 * [Container Services](technical/module-2/container-services.md)
 * [Serverless](technical/module-2/serverless.md)
 * [AWS Lambda](technical/module-2/aws-lambda.md)
+* [Networking](technical/module-3/networking.md)
 
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
