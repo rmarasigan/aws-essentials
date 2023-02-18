@@ -16,6 +16,7 @@
 * [AWS Lambda](module-2/aws-lambda.md)
 * [Networking](module-3/networking.md)
 * [Amazon Virtual Private Cloud](module-3/amazon-vpc.md)
+* [Amazon VPC Routing](module-3/amazon-vpc-routing.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
