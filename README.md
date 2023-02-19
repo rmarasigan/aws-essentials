@@ -18,6 +18,7 @@
 * [Networking](technical/module-3/networking.md)
 * [Amazon Virtual Private Cloud](technical/module-3/amazon-vpc.md)
 * [Amazon VPC Routing](technical/module-3/amazon-vpc-routing.md)
+* [Amazon VPC Security](technical/module-3/amazon-vpc-security.md)
 
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
