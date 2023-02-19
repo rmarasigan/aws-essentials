@@ -81,3 +81,29 @@
    c. You must manage availability and fault tolerance
 
    **d. You never pay for idle resources**
+
+7. Which of the following pieces of information do you need to create a virtual private cloud (VPC)?
+
+   a. Availability Zone it will reside in 
+
+   b. Subnet it will reside in
+
+   c. Group of subnets it will reside in
+
+   **d. AWS Region it will reside in**
+
+8. Which of the following is true for a security group's default setting?
+
+   a. Allows all inbound traffic and blocks all outbound traffic
+
+   **b. Blocks all inbound traffic and allows all outbound traffic**
+
+   c. Allows all inbound and outbound traffic
+
+   d. Blocks all inbound and outbound traffic
+
+9. A network access control list (network ACL) filters traffic at the EC2 instance level.
+
+   a. True 
+
+   **b. False**
