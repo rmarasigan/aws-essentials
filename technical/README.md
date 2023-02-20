@@ -18,6 +18,7 @@
 * [Amazon Virtual Private Cloud](module-3/amazon-vpc.md)
 * [Amazon VPC Routing](module-3/amazon-vpc-routing.md)
 * [Amazon VPC Security](module-3/amazon-vpc-security.md)
+* [Storage Types](module-4/storage-types.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
