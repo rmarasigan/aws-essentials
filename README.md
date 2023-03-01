@@ -21,6 +21,7 @@
 * [Amazon VPC Security](technical/module-3/amazon-vpc-security.md)
 * [Storage Types](technical/module-4/storage-types.md)
 * [Amazon EC2 Instance Storage and Amazon Elastic Block Store](technical/module-4/aws-ec2-instance-and-ebs-storage.md)
+* [Object Storage with Amazon Simple Storage Serivce](techincal/module-4/aws-object-storage-with-s3.md)
 
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
