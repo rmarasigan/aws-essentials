@@ -110,3 +110,43 @@ Buckets can be in one of the following three states:
 * **Versioning-suspended**: Versioning is suspended for new objects. All new objects in the bucket will not have a version. However, all existing objects keep their object versions.
 
 The versioning state applies to all objects in the bucket. Storage costs are incurred for all objects in your bucket, including all versions. To reduce your Amazon S3 bill, you might want to delete previous versions of your objects once they are no longer needed.
+
+### Six Amazon S3 storage classes
+When you upload an object to Amazon S3 and you don't specify the storage class, you upload it to the default storage class - often referred to as standard storage. Amazon S3 storage classes let you change your storage tier when your data characteristics change. For example, if you are accessing your old photos infrequently, you might want to change the storage class for the photos to save costs.
+
+#### Amazon S3 Standard
+This is considered general purpose storage for cloud applications, dynamic websites, content distribution, mobile and gaming applications, and big data analytics.
+
+#### Amazon S3 Intelligent-Tiering
+This tier is useful if your data has unknown or changing access patterns. S3 Intelligent-Tiering stores objects in two tiers - a frequent access tier and an infrequent access tier. Amazon S3 monitors access patterns of your data and automatically moves your data to the most cost-effective storage tier based on frequency of access.
+
+#### Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+This tier is for data that is accessed less frequently but requires rapid access when needed. S3 Standard-IA offers the high durability, high throughput, and low latency of S3 Standard, with a low per-GB storage price and per-GB retrival fee. This storage tier is ideal if you want to store long-term backups, disaster recovery files, and so on.
+
+#### Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+Unlike other S3 storage classess that store data in a minimum of three Availability Zones (AZs), S3 One Zone-IA stores data in a single AZ and costs 20% less than S3 Standard-IA. S3 One Zone-IA is ideal for customers who want a lower-cost option for infrequently accessed data but do not require the availablity and resilience of S3 Standard or S3 Standard-IA. It's a good choice for storing secondary backup copies of on-premises data or easily re-creatable data.
+
+#### Amazon S3 Glacier
+S3 Glacier is a secure, durable, and low-cost storage class for data archiving. You can reliably store any amount of data at costs that are competitive with or cheaper than on-premises solutions. To keep costs low yet suitable for varying needs, S2 Glacier provides three retrieval options that range from a few minutes to hours.
+
+#### Amazon S3 Glacier Deep Archive
+S3 Glacier Deep Archive is the lowest-cost Amazon S3 storage class, and supports long-term retention and digital preservation for data that might be accessed once or twice a year. It is designed for customers - particularly those in highly regulated industries, such as the financial services, healthcare, and public sectors - that retain data sets for 7-10 years, or longer, to meet regulatory complaince requirements.
+
+## Automate Tier Transactions with Object Lifecylce Management
+If you keep manually changing your objects, such as your employee photos, from storage tier to storage tier, you might want to automate the process with a lifecycle policy. When you define a lifecycle policy configuration for an object or group of objects, you can choose to automate two actions - transition and expiration actions.
+
+* **Transition actions** define when objects should transition to another storage class.
+* **Expiration actions** define when objects expire and should be permanently deleted.
+
+For example, you might transition objects to S3 Standard-IA storage class 30 days after you create them, or archive objects to the S3 Glacier storage class one year after creating them.
+
+![aws-s3-tier-transactions](../assets/img/aws-s3-tier-transactions.jpg)
+
+The following use cases are good candidates for lifecycle management:
+* **Periodic logs**: If you upload periodic logs to a bucket, your application might need them for a week or a month. After that, you might want to delete them.
+* **Data that changes in access frequency**: Some documents are frequently accessed for a limited period of time. After that, they are infrequently accessed. At some point, you might not need real-time access to them, but your organization or regulations might require you to archive them for a specific period. After that, you can delete them.
+
+## Resources
+* [Amazon S3](https://aws.amazon.com/s3/)
+* [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
+* [Using Versioning in S3 Buckets](https://aws.amazon.com/s3/storage-classes/)
