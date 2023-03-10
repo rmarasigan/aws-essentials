@@ -21,6 +21,7 @@
 * [Storage Types](module-4/storage-types.md)
 * [Amazon EC2 Instance Storage and Amazon Elastic Block Store](module-4/aws-ec2-instance-and-ebs-storage.md)
 * [Object Storage with Amazon Simple Storage Serivce](module-4/aws-object-storage-with-s3.md)
+* [Choose the Right Storage Service](module-4/choose-the-right-storage-service.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
