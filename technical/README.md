@@ -122,3 +122,30 @@
    a. True 
 
    **b. False**
+
+10. Which of the following is a typical use case for Amazon Simple Storage Service (Amazon S3)?
+
+   **a. Object storage for media hosting**
+
+   b. Object storage for a boot drive
+
+   c. Block storage for an EC2 instance
+
+   d. File storage for multiple EC2 instances
+
+11. Bucket names must be unique across all AWS accounts.
+
+   **a. True**
+
+   b. False
+
+12. An employee at a healthcare facility is tasked with storing 7 years of patient information that is rarely accessed. Which storage tier should they use? 
+
+   **a. S3 Glacier Deep Archive**
+
+   b. S3 Standard
+
+   c. S3 Standard-Infrequent Access
+
+   d. S3 Intelligent-Tiering
+
