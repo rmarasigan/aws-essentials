@@ -1,5 +1,6 @@
 # [AWS Technical Essentials](https://explore.skillbuilder.aws/learn/course/external/view/elearning/1851/aws-technical-essentials?dt=tile&tile=fdt)
 
+### Introduction to Amazon Web Services
 * [Overview of Amazon Web Services](https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-overview/aws-overview.pdf)
 * [What is AWS?](module-1/what-is-aws.md)
 * [AWS Global Infrastructure](module-1/global-infrastructure.md)
@@ -8,21 +9,30 @@
 * [Protect the AWS Root User](module-1/protect-aws-root-user.md)
 * [Identity and Access Management](module-1/aws-iam.md)
 * [Role-Based Access in AWS](module-1/role-based-access.md)
+
+### AWS Compute
 * [Compute as a Service](module-2/compute-as-a-service.md)
 * [Amazon Elastic Compute Cloud](module-2/amazon-ec2.md)
 * [Amazon EC2 Instance Lifecycle](module-2/aws-ec2-instance-lifecycle.md)
 * [Container Services](module-2/container-services.md)
 * [Serverless](module-2/serverless.md)
 * [AWS Lambda](module-2/aws-lambda.md)
+
+### AWS Networking
 * [Networking](module-3/networking.md)
 * [Amazon Virtual Private Cloud](module-3/amazon-vpc.md)
 * [Amazon VPC Routing](module-3/amazon-vpc-routing.md)
 * [Amazon VPC Security](module-3/amazon-vpc-security.md)
+
+### AWS Storage
 * [Storage Types](module-4/storage-types.md)
 * [Amazon EC2 Instance Storage and Amazon Elastic Block Store](module-4/aws-ec2-instance-and-ebs-storage.md)
 * [Object Storage with Amazon Simple Storage Serivce](module-4/aws-object-storage-with-s3.md)
 * [Choose the Right Storage Service](module-4/choose-the-right-storage-service.md)
+
+### AWS Databases
 * [Databases on AWS](module-5/aws-databases.md)
+* [Amazon Relational Database Service](module-5/aws-rds.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
