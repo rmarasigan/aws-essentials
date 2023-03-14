@@ -34,6 +34,7 @@
 * [Databases on AWS](technical/module-5/aws-databases.md)
 * [Amazon Relational Database Service](technical/module-5/aws-rds.md)
 * [Amazon DynamoDB](technical/module-5/aws-dynamodb.md)
+* [Choose the Right Database Service](technical/module-5/choose-the-right-db-service.md)
 
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
