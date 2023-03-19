@@ -36,6 +36,9 @@
 * [Amazon DynamoDB](technical/module-5/aws-dynamodb.md)
 * [Choose the Right Database Service](technical/module-5/choose-the-right-db-service.md)
 
+### Monitoring, Optimization, and Serverless
+* [Monitoring](technical/module-6/monitoring.md)
+
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
 * [AWS EC2 Auto Scaling](cloud-practitioner-essentials/aws-ec2-auto-scaling.md)

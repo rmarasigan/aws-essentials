@@ -36,6 +36,9 @@
 * [Amazon DynamoDB](module-5/aws-dynamodb.md)
 * [Choose the Right Database Service](module-5/choose-the-right-db-service.md)
 
+### Monitoring, Optimization, and Serverless
+* [Monitoring](module-6/monitoring.md)
+
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
    
