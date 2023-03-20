@@ -158,3 +158,174 @@
 
    d. S3 Intelligent-Tiering
 
+13. An AWS architect is choosing a database for a dataset that has variation within the data. Not every piece of data shares the same attributes. What database should they choose for the solution? 
+
+   a. Amazon Relational Database Service
+
+   b. Amazon Neptune
+
+   **c. Amazon DynamoDB**
+
+   d. Amazon QLDB
+
+14. When using Amazon Relational Database Service (Amazon RDS), what task is the customer responsible for when running and operating the database?
+
+   **a. Optimizing the database**
+
+   b. Provisioning and managing the underlying infrastructure
+
+   c. Installing the RDBMS onto the DB instance
+
+   d. Installing patches to the OS for the DB instance
+
+15. What are the three components of EC2 Auto Scaling?
+
+   **a. Launch template, scaling policies, EC2 Auto Scaling group**
+
+   b. Scaling policies, security group, EC2 Auto Scaling group
+
+   c. Security group, instance type, key pair
+
+   d. AMI ID, instance type, storage
+
+16. Which features are included with Elastic Load Balancing? (Select TWO)
+
+   **a. Integration with Auto Scaling**
+
+   b. AI for categorizing employee photos
+
+   c. Vertical Scaling for EC2 instances
+
+   **d. Directing  incoming traffic to instances**
+
+   e. Deploying new instances as required
+
+17. What are the possible states of a metric alarm? 
+
+   a. OK, ALARM, NOT_AVAILABLE
+
+   **b. OK, ALARM, INSUFFICIENT_DATA**
+
+   c. OK, ALERT, INSUFFICIENT_DATA
+
+   d. OK, ALERT, NOT_AVAILABLE
+
+18. What are the four main factors to consider when choosing a Region?
+
+   **a. Latency, price, service availability, compliance**
+
+   b. Latency, high availability, taxes, compliance
+
+   c. Latency, taxes, speed, compliance
+
+   d. Latency, security, high availability, resiliency
+
+19. Which of the following accurately describes the relationships among Regions, Availability Zones, and data centers?
+
+   **a. Regions are clusters of Availability Zones. Availability Zones are clusters of data centers.**
+
+   b. Availability Zones are clusters of Regions. Regions are clusters of data centers.
+
+   c. Data centers are cluster of Availability Zones. Regions are clusters of Availability Zones.
+
+   d. Data centers are clusters of Regions. Regions are clusters of Availability Zones.
+
+20. Which of the following can be found in an IAM policy? (Select TWO.)
+
+   **a. Effect**
+
+   **b. Action**
+
+   c. Object
+
+   d. Cause
+
+   e. Result
+
+21. Users in a company are authenticated in the corporate network, and they want to use AWS services without signing in again. Which AWS authentication option should the company use?
+
+   **a. IAM role**
+
+   b. AWS root user
+
+   c. IAM user
+
+   d. IAM group
+
+22. Which actions must be completed to allow resources in a public subnet to communicate with the internet?
+
+   **a. Attach an internet gateway to the VPC**
+
+   **b. Create a route in a route table to the internet gateway**
+
+   c. Create a route to a private subnet
+
+   d. Connect resources to a VPN
+
+   e. Disable the firewall
+
+23. What does an Amazon EC2 instance type indicate? 
+
+   **a. Instance family and instance size**
+
+   b. Instance placement and instance size
+
+   c. Instance tenancy and instance billing
+
+   d. Instance AMI and networking speed
+
+24. What is a typical use case for Amazon S3?
+
+   **a. Object storage for media hosting**
+
+   b. Object storage for a boot drive
+
+   c. Block storage for an EC2 instance
+
+   d. File storage for multiple EC2 instances
+
+25. An employee at a healthcare facility is tasked with storing 7 years of patient information that is rarely accessed. Their boss wants them to consider one of the Amazon S3 storage tiers to store the information. Which storage tier should be used?
+
+   a. S3 Standard
+
+   **b. S3 Glacier Deep Archive**
+
+   c. S3 Standard-Infrequent Access
+
+   d. S3 Intelligent-Tiering
+
+26. When using Amazon Relational Database Service, which database task is the customer's responsibility? 
+
+   **a. Optimizing the database**
+
+   b. Provisioning and managing the underlying infrastructure
+
+   c. Installing the RDBMS onto the DB instance
+
+   d. Installing OS patches for the DB instance
+
+27. A Multi-AZ deployment is beneficial when a customer wants to increase the availability of their database. 
+
+   **a. True**
+
+   b. False
+
+28. What are the three components of EC2 Auto Scaling?
+
+   **a. Launch template, scaling policies, EC2 Auto Scaling group**
+
+   b. Scaling policies, security group, EC2 Auto Scaling group
+
+   c. Security group, instance type, Key pair
+
+   d. AMI ID, instance type, storage
+
+29. Which ELB load balancer type should be used for an application that uses a rule based on a website's domain to choose target groups?
+
+   **a. Application Load Balancer**
+
+   b. Classic Load Balancer
+
+   c. Network Load Balancer
+
+   d. Target Load Balancer
