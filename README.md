@@ -40,6 +40,8 @@
 * [Monitoring](technical/module-6/monitoring.md)
 * [Amazon CloudWatch](technical/module-6/aws-cloudwatch.md)
 * [Solution Optimization](technical/module-6/solution-optimization.md)
+* [Traffic Routing with Amazon Elastic Load Balancing](technical/module-6/aws-elb.md)
+* [Amazon EC2 Auto Scaling](technical/module-6/aws-ec2-auto-scaling.md)
 
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)

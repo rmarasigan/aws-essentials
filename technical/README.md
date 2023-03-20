@@ -40,6 +40,8 @@
 * [Monitoring](module-6/monitoring.md)
 * [Amazon CloudWatch](module-6/aws-cloudwatch.md)
 * [Solution Optimization](module-6/solution-optimization.md)
+* [Traffic Routing with Amazon Elastic Load Balancing](module-6/aws-elb.md)
+* [Amazon EC2 Auto Scaling](module-6/aws-ec2-auto-scaling.md)
 
 ## Knowledge Check
 1. What are the four main factors you should take into consideration when choosing a Region?
