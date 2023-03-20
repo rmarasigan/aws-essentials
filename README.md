@@ -38,6 +38,8 @@
 
 ### Monitoring, Optimization, and Serverless
 * [Monitoring](technical/module-6/monitoring.md)
+* [Amazon CloudWatch](technical/module-6/aws-cloudwatch.md)
+* [Solution Optimization](technical/module-6/solution-optimization.md)
 
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
