@@ -11,3 +11,6 @@
 * Run code without provisioning or managing servers
 * Pay only for compute time while code is running
 * Use other AWS services to automatically trigger code
+
+### How AWS Lambda works
+![how-lambda-works](assets/img/how-lambda-works.png)

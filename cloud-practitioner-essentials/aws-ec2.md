@@ -6,6 +6,9 @@
 * Boot server instances in minutes
 * Pay only for what you use
 
+## How Amazon EC2 Works
+![how-ec2-works](assets/img/how-ec2-works.png)
+
 ### Instance Types
 
 #### General Purpose
@@ -25,7 +28,7 @@
 * Ideal for application streaming and graphics workloads
 
 #### Storage Optimized
-* Ofers low latency and high input/output operations per seconds (IOPS)
+* Offers low latency and high input/output operations per seconds (IOPS)
 * Suitable for workloads such as distributed file systems and data warehousing applications
 
 ### Instance Pricing Options
@@ -46,3 +49,11 @@
 #### Compute Savings Plan
 * Offers up to 72% savings over On-Demand costs for a consistent amount of compute usage
 * Requires a 1-year or 3-year term commitment
+
+#### Dedicated Instance
+* An EC2 *instance* that runs in a VPC on hardware for a single customer
+* Higher cost compared to standard Amazon EC2 instances
+
+#### Dedicated Host
+* A *physical server* with EC2 instance capacity for a single customer
+* Most expensive Amazon EC2 option

@@ -1,4 +1,11 @@
 # Elastic Load Balancing
+* Automatically distributes traffic across multiple resources
+* Provides a single point of contact for your Auto Scaling group
+
+> ![scalability-and-load-balancing](assets/img/scalability-and-load-balancing.png)
+>
+> *Scalability and load balancing*
+
 **Elastic Load Balancing** automatically distributes incoming application traffic across multiple Amazon EC2 instances. It enables you to achieve greater levels of fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to distribute application traffic. Elastic Load Balancing detects unhealthy instances and automatically reroutes traffic to healthy instances until the unhealthy instances have been restored. Customers can enable Elastic Load Balancing within a single or multiple Availability Zones for more consistent application performance. Elastic Load Balancing can also be used in an Amazon Virtual Private Cloud (“VPC”) to distribute traffic between application tiers in a virtual network that you define.
 
 ## Application Load Balancer (HTTP & HTTPS)
