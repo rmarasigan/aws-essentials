@@ -31,3 +31,8 @@
   * [AWS Pricing Tools](aws-pricing-tools.md)
   * [AWS Support Plans](aws-support-plans.md)
   * [AWS Marketplace](aws-marketplace.md)
+* **Migration & Innovation**
+  * [AWS Cloud Adoption Framework](cloud-adoption-framework.md)
+  * [AWS Snow Family](aws-snow-family.md)
+  * [Innovation with AWS](innovation-with-aws.md)
+  * [AWS Well-Architected Framework](well-architected-framework.md)

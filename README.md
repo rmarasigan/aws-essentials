@@ -69,3 +69,14 @@
   * [Amazon CloudWatch](cloud-practitioner-essentials/amazon-cloudwatch.md)
   * [AWS CloudTrail](cloud-practitioner-essentials/aws-cloudtrail.md)
   * [AWS Trusted Advisor](cloud-practitioner-essentials/aws-trusted-advisor.md)
+* Pricing & Support
+  * [AWS Pricing](cloud-practitioner-essentials/aws-pricing.md)
+  * [Consolidated Billing](cloud-practitioner-essentials/consolidated-billing.md)
+  * [AWS Pricing Tools](cloud-practitioner-essentials/aws-pricing-tools.md)
+  * [AWS Support Plans](cloud-practitioner-essentials/aws-support-plans.md)
+  * [AWS Marketplace](cloud-practitioner-essentials/aws-marketplace.md)
+* Migration & Innovation
+  * [AWS Cloud Adoption Framework](cloud-practitioner-essentials/cloud-adoption-framework.md)
+  * [AWS Snow Family](cloud-practitioner-essentials/aws-snow-family.md)
+  * [Innovation with AWS](cloud-practitioner-essentials/innovation-with-aws.md)
+  * [AWS Well-Architected Framework](cloud-practitioner-essentials/well-architected-framework.md)
