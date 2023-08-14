@@ -7,12 +7,12 @@ AWS automatically mitigates network and transport layer (layer 3 and layer 4) Di
 ## AWS Shield
 **AWS Shield** provides protection against distributed denial of service (DDoS) attacks.
 
-![AWS Shield](assets/img/aws-shield-ddos.png)
+> ![AWS Shield](assets/img/aws-shield-ddos.png)
 
 ## Amazon Inspector
 **Amazon Inspector** allows you to perform automated security assessments on your applications.
 
-![Amazon Inspector](assets/img/aws-inspector.png)
+> ![Amazon Inspector](assets/img/aws-inspector.png)
 
 ## AWS Key Management Service
 * **AWS Key Management Service (AWS KMS)** helps customers perform encryption operations through the use of cryptographic keys

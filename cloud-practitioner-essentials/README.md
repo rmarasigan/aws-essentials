@@ -25,3 +25,9 @@
   * [Amazon CloudWatch](amazon-cloudwatch.md)
   * [AWS CloudTrail](aws-cloudtrail.md)
   * [AWS Trusted Advisor](aws-trusted-advisor.md)
+* **Pricing & Support**
+  * [AWS Pricing](aws-pricing.md)
+  * [Consolidated Billing](consolidated-billing.md)
+  * [AWS Pricing Tools](aws-pricing-tools.md)
+  * [AWS Support Plans](aws-support-plans.md)
+  * [AWS Marketplace](aws-marketplace.md)
