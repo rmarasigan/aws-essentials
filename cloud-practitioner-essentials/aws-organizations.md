@@ -2,11 +2,14 @@
 
 **AWS Organizations** is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage. AWS Organizations includes account management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of your business. As an administrator of an organization, you can create accounts in your organization and invite existing accounts to join the organization. AWS Organizations helps customers consolidate and manage multiple AWS accounts in a central location. To centrally control permissions for the accounts in your organization, use **service control policies (SCPs)**.
 
-![AWS Organizations](assets/img/aws-organizations.png) 
+> ![AWS Organizations](assets/img/aws-organizations.png)
+
+### Example: Organizational Units
+> ![organizational-units-example](assets/img/organizational-units-example.png)
 
 ## Terminology and Concepts
 
-![AWS Account OU](assets/img/account-ou.png)
+> ![AWS Account OU](assets/img/account-ou.png)
 
 ### Organization
 An entity that you create to consolidate your AWS accounts so that you can administer them as a single unit. You can use the AWS Organizations console to centrally view and manage all of your accounts within your organization. An organization has one management account along with zero or more member accounts. You can organize the accounts in a hierarchical, tree-like structure with a root at the top and organizational units nested under the root. Each account can be directly in the root, or placed in one of the OUs in the hierarchy. An organization has the functionality that is determined by the feature set that you enable.

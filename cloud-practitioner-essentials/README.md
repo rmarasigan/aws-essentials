@@ -15,9 +15,13 @@
 * **Storage & Databases**
   * [AWS Storage](storage-types.md)
   * [AWS Databases](aws-databases.md)
-* [Security](security.md)
-* [AWS Identity and Access Management (IAM)](aws-iam.md)
-* [AWS Organizations](aws-organizations.md)
-* [Compliances](aws-compliances.md)
-* [DoS and DDoS Attacks](dos-ddos-attacks.md)
-* [Monitoring and Analytics](monitoring-and-analytics.md)
+* **Security**
+  * [Shared Responsibility Model](shared-responsibility-model.md)
+  * [AWS Identity and Access Management (IAM)](aws-iam.md)
+  * [AWS Organizations](aws-organizations.md)
+  * [Compliances](aws-compliances.md)
+  * [DoS and DDoS Attacks](dos-ddos-attacks.md)
+* **Monitoring**
+  * [Amazon CloudWatch](amazon-cloudwatch.md)
+  * [AWS CloudTrail](aws-cloudtrail.md)
+  * [AWS Trusted Advisor](aws-trusted-advisor.md)

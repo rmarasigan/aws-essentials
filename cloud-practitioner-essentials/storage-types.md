@@ -53,7 +53,7 @@ Applications developed within the cloud often cash in on object storage’s vast
 * Able to retrieve objects within 12 hours
 
 ## File Storage
-In **File storage**, multiple clients can access data that is stored in file folders. Many applications got to access shared files and need a filing system. this sort of storage is usually supported with a Network Attached Storage (NAS) server. File storage solutions like *Elastic File System (Amazon EFS)*are ideal to be used in cases like large content repositories, development environments, media stores, or user home directories.
+In **File storage**, multiple clients can access data that is stored in file folders. Many applications got to access shared files and need a filing system. this sort of storage is usually supported with a Network Attached Storage (NAS) server. File storage solutions like *Elastic File System (Amazon EFS)* are ideal to be used in cases like large content repositories, development environments, media stores, or user home directories.
 
 ![File Storage](assets/img/file-storage.png)
 

@@ -1,14 +1,15 @@
 # AWS Databases
 
-## Database Types
-![database-types](assets/img/database-types.png)
+> ![database-types](assets/img/database-types.png)
+>
+> Database Types
 
 ### Relational databases
 * In a relational database, data is stored in a way that relates it to other pieces of data
 * Relational dabases use structured query language (SQL) to store and query data
 
 ### [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
-![amazon-rds](assets/img/amazon-rds.png)
+> ![amazon-rds](assets/img/amazon-rds.png)
 
 #### Amazon RDS Database Engines
 * Amazon Aurora
@@ -19,7 +20,7 @@
 * Microsoft SQL Server
 
 ### [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
-![amazon-aurora](assets/img/amazon-aurora.png)
+> ![amazon-aurora](assets/img/amazon-aurora.png)
 
 ### Nonrelational Databases
 * A **nonrelational databases** uses structures other than rows and colums to organize data
@@ -50,17 +51,17 @@
     </table>
 
 ### [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
-![amazon-dynamodb](assets/img/amazon-dynamodb.png)
+> ![amazon-dynamodb](assets/img/amazon-dynamodb.png)
 
 ### [AWS Database Migration Service](https://aws.amazon.com/dms/)
 Migrate relational databases, nonrelational databases, and other types of data stores.
 
-![AWS Database Migration Service](assets/img/amazon-database-migration.png)
+> ![AWS Database Migration Service](assets/img/amazon-database-migration.png)
 
 ### Amazon RDS and Amazon DynamoDB
 For each scenario, should you use Amazon RDS or Amazon DynamoDB?
 
-![amazon-rds-dynamodb](assets/img/amazon-rds-dynamodb.png)
+> ![amazon-rds-dynamodb](assets/img/amazon-rds-dynamodb.png)
 
 ## Additional Database Services
 * [**Amazon Redshift**](https://aws.amazon.com/redshift/)
