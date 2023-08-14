@@ -1,18 +1,14 @@
-# Global Infrastructure
+# Global Infrastructure & Reliability
 The AWS Cloud infrastructure is built around AWS Regions and Availability Zones. An **AWS Region** is a physical location in the world where we have multiple Availability Zones. **Availability Zones** consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities. These Availability Zones offer you the ability to operate production applications and databases that are more highly available, fault tolerant, and scalable than would be possible from a single data center.
 
 ## Regions
 AWS has the concept of a **Region**, which is a physical location around the world where we cluster data centers. We call each group of logical data centers an Availability Zone. Each AWS Region consists of a minimum of three, isolated, and physically separate AZs within a geographic area. Unlike other cloud providers, who often define a region as a single data center, the multiple AZ design of every AWS Region offers advantages for customers. Each AZ has independent power, cooling, and physical security and is connected via redundant, ultra-low-latency networks. AWS customers focused on high availability can design their applications to run in multiple AZs to achieve even greater fault-tolerance. AWS infrastructure Regions meet the highest levels of security, compliance, and data protection.
 
 ### Criteria for Region Selection
-#### Cost
-Pricing across AWS Region varies, because of different [CapEx](https://www.bmc.com/blogs/capex-vs-opex/), [OpEx](https://www.bmc.com/blogs/capex-vs-opex/), and regulations in different geographic locations.
 
-#### Service availability
-Amazon offers a vast portfolio of cloud-based solutions spanning AWS Regions. While the most popular AWS services are available across all AWS Regions, not every region offers all services.
-
-#### Customer base (latency)
-The distance between the cloud deployments (AWS Regions and Zones) and end-users is a key factor that determines the latency and network performance of the cloud service.
+> Select a Region
+>
+> ![selecting-region](assets/img/selecting-region.png)
 
 #### Regulatory compliance and government policies
 * **Regulatory compliance**
@@ -22,7 +18,19 @@ The distance between the cloud deployments (AWS Regions and Zones) and end-users
 * **Security requirements**
   * Organizations may also be obliged to distribute workloads across multiple geographically disparate cloud data centers to ensure high availability and security standards of sensitive business information and IT-enabled services.
 
+#### Customer base (latency)
+The distance between the cloud deployments (AWS Regions and Zones) and end-users is a key factor that determines the latency and network performance of the cloud service.
+
+#### Service availability
+Amazon offers a vast portfolio of cloud-based solutions spanning AWS Regions. While the most popular AWS services are available across all AWS Regions, not every region offers all services.
+
+#### Cost
+Pricing across AWS Region varies, because of different [CapEx](https://www.bmc.com/blogs/capex-vs-opex/), [OpEx](https://www.bmc.com/blogs/capex-vs-opex/), and regulations in different geographic locations.
+
 ## Availability Zones
+
+![availability-zones](assets/img/availability-zones.png)
+
 AWS has the concept of a Region, which is a physical location around the world where we cluster data centers. We call each group of logical data centers an **Availability Zone**. Each AWS Region consists of a minimum of three, isolated, and physically separate AZs within a geographic area. Unlike other cloud providers, who often define a region as a single data center, the multiple AZ design of every AWS Region offers advantages for customers. Each AZ has independent power, cooling, and physical security and is connected via redundant, ultra-low-latency networks. AWS customers focused on high availability can design their applications to run in multiple AZs to achieve even greater fault-tolerance. AWS infrastructure Regions meet the highest levels of security, compliance, and data protection.
 
 ## Local Zones
@@ -32,6 +40,10 @@ Each AWS Local Zone location is an extension of an AWS Region where you can run 
 
 ## Edge Locations
 **Edge locations** are Content Delivery Network (CDN) endpoints for CloudFront. They are used by AWS services such as *AWS CloudFront* and *AWS Lambda Edge* to cache data and reduce latency for end-user access by using the Edge Locations as a global Content Delivery Network (CDN). As a result, Edge Locations are primarily used by end users who are accessing and using your services.
+
+> Amazon CloudFront delivers content
+>
+> ![cloudfront-edge-location](assets/img/cloudfront-edge-location.png)
 
 ## Regional Edge Caches
 **Regional Edge Caches** sit between your CloudFront Origin servers and the Edge Locations. A Regional Edge Cache has a larger cache-width than each of the individual Edge Locations. A Regional Edge Cache has a larger cache-width than each of the individual Edge Locations, and because data expires from the cache at the Edge Locations, the data is retained at the Regional Edge Caches.

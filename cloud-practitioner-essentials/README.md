@@ -1,17 +1,20 @@
 # AWS Cloud Practitioner Essentials
 
-* [Introduction to AWS](introduction.md)
-* Compute in the Cloud
+* [**Introduction to AWS**](introduction.md)
+* **Compute in the Cloud**
   * [AWS Elastic Container Computer](aws-ec2.md)
   * [AWS EC2 Auto Scaling](aws-ec2-auto-scaling.md)
   * [Elastic Load Balancing](elastic-load-balancing.md)
   * [AWS Messaging Services](aws-messaging-services.md)
   * [Serverless Compute Services](serverless-compute-services.md)
-* [AWS Container Services](aws-container-services.md)
-* [Global Infrastructure](aws-global-infrastructure.md)
-* [Networking](networking.md)
-* [Storage Types](storage-types.md)
-* [AWS Databases](aws-databases.md)
+  * [AWS Container Services](aws-container-services.md)
+* [**Global Infrastructure**](aws-global-infrastructure.md)
+* [**Networking**](networking.md)
+  * [Network Access Control Lists & Security Groups](nacls-sg.md)
+  * [Interact with the AWS Global Network](interact-with-global-network.md)
+* **Storage & Databases**
+  * [AWS Storage](storage-types.md)
+  * [AWS Databases](aws-databases.md)
 * [Security](security.md)
 * [AWS Identity and Access Management (IAM)](aws-iam.md)
 * [AWS Organizations](aws-organizations.md)
