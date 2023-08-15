@@ -8,7 +8,7 @@ A **relational database** organizes data into tables. Data in one table can be l
 
 A table stores data in rows and columns. A row, often called a record, contains all information about a specific entry. Columns describe attributes of an entry. Here’s an example of three tables in a relational database.
 
-![databases-aws](../assets/img/databases-aws.png)
+> ![databases-aws](../assets/img/databases-aws.png)
 
 This shows a table for books, a table for sales, and a table for authors. In the books table, each row includes the book ISBN, title, author, and format. Each of these attributes is stored in its own column. The books table has something in common with the other two tables – the author attribute. That common column creates a relationship between the tables.
 
@@ -37,6 +37,8 @@ Relational database offer a number of benefits, including the following:
 * **Familiarity**: Relational databases have been a popular choice since the 1970s. Due to this popularity, technical professionals often have familiarity and experience with this type of database.
 * **Accuracy**: Relational databases ensure that your data is persisted with high integrity and adheres to the atomicity, consistency, isolation, durability (ACID) principle.
 
+> ![relational-database-benefits](../assets/img/relational-database-benefits.png)
+
 ### Relational database use cases
 Much of the world runs on relational databases. In fact, they’re at the core of many mission-critical applications, some of which you might use in your day-to-day life. Here are some common use cases for relational databases.
 * Applications that have a solid schema that doesn’t change often, such as lift-and-shift applications that lift an app from on-premises and shifts it to the cloud, with little or no modifications.
@@ -53,7 +55,7 @@ If you operate a relational database on-premises (in your own data center), you 
 
 ### Unmanaged database
 
-![unmanaged-database](../assets/img/unmanaged-database.png)
+> ![unmanaged-database](../assets/img/unmanaged-database.png)
 
 Now, suppose you want to shift some of the work to AWS by running your relational database on Amazon EC2. If you host a database on Amazon EC2, AWS takes care of implementing and maintaining the physical infrastructure and hardware, and installing the operating system of the EC2 instance. However, you would still be responsible for managing the EC2 instance, managing the database on that host, optimizing queries, and managing customer data.
 
@@ -61,7 +63,7 @@ This is referred to as an unmanaged database option. In this option, AWS is resp
 
 ### Managed database
 
-![managed-database](../assets/img/managed-database.jpg)
+> ![managed-database](../assets/img/managed-database.png)
 
 To shift more of the work to AWS, you can use a managed database service. These services provide the setup of both the EC2 instance and the database, and they provide systems for high availability, scalability, patching, and backups. However, in this model, you’re still responsible for database tuning, query optimization, and of course, ensuring that your customer data is secure. This option provides the ultimate convenience but the least amount of control compared to the two previous options.
 

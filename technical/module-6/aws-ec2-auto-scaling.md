@@ -4,6 +4,9 @@
 Availability and reachability is improved by adding one more server. However, the entire system can again become unavailable if there is a capacity issue. This section looks at load issue for both types of systems discussed – active-passive and active-active.
 
 ## Vertical Scaling
+
+> ![vertical-scaling](../assets/img/vertical-scaling.png)
+
 If too many requests are sent to a single active-passive system, the active server will become unavailable and hopefully failover to the passive server. But this doesn’t solve anything.
 
 With active-passive, you need vertical scaling. This means increasing the size of the server. With EC2 instances, you select either a larger type or a different instance type. This can only be done while the instance is in a stopped state.
@@ -19,6 +22,9 @@ When the number of requests reduces, the same operation must be done. Even thoug
 This is where the active-active system can help. When there are too many requests, this system can be scaled horizontally by adding more servers.
 
 ## Horizontal Scaling
+
+> ![horizontal-scaling](../assets/img/horizontal-scaling.png)
+
 As mentioned, for the application to work in an active-active system, it’s already created as stateless, not storing any client sessions on the server. This means that having two servers or having four wouldn’t require any application changes. It would only be a matter of creating more instances when required and shutting them down when traffic decreases. The Amazon EC2 Auto Scaling service can take care of that task by automatically creating and removing EC2 instances based on metrics from Amazon CloudWatch.
 
 You can see that there are many more advantages to using an active-active system in comparison with an active-passive. Modifying your application to become stateless enables scalability.
@@ -38,6 +44,9 @@ The cloud works differently with a pay-as-you-go model. You must turn off the un
 The need here is for a tool that automatically adds and removes EC2 instances according to conditions you define – that’s exactly what the EC2 Auto Scaling service does.
 
 ## Amazon EC2 Auto Scaling
+
+> ![aws-ec2-autoscaling](../assets/img/aws-ec2-autoscaling.png)
+
 The Amazon EC2 Auto Scaling service adds and removes capacity to keep a steady and predictable performance at the lowest possible cost. By adjusting the capacity to exactly what your application uses, you only pay for what your application needs. And even with applications that have steady usage, EC2 Auto Scaling can help with fleet management. If an EC2 instance has an issue, EC2 Auto Scaling can automatically replace the instance. This means that EC2 Auto Scaling helps both to scale your infrastructure and ensure high availability.
 
 ## Configure EC2 Auto Scaling components
@@ -52,7 +61,9 @@ Multiple parameters are required to create EC2 instances – Amazon Machine Imag
 
 You can use a launch template to manually launch an EC2 instance. You can also use it with EC2 Auto Scaling. It also supports versioning, which allows for quickly rolling back if there's an issue or a need to specify a default version. This way, while iterating on a new version, other users can continue launching EC2 instances using the default version until you make the necessary changes.
 
-![aws-auto-scaling-launch-template](../assets/img/aws-auto-scaling-launch-template.png)
+> ![aws-auto-scaling-launch-template](../assets/img/aws-auto-scaling-launch-template.png)
+>
+> Example of a launch template with three versions
 
 You can create a launch template in one of three ways.
 * The fastest way to create a template is to use an existing EC2 instance. All the settings are already defined.
@@ -71,7 +82,7 @@ To specify how many instances EC2 Auto Scaling should launch, you have three cap
 * **Maximum**: The maximum number of instances running in your Auto Scaling group, even if the threshold for adding new instances is reached.
 * **Desired capacity**: The amount of instances that should be in your Auto Scaling group. This number can only be within or equal to the minimum or maximum. EC2 Auto Scaling automatically adds or removes instances to match the desired capacity number.
 
-![aws-auto-scaling-groups](../assets/img/aws-auto-scaling-groups.png)
+> ![aws-auto-scaling-groups](../assets/img/aws-auto-scaling-groups.png)
 
 When EC2 Auto Scaling removes EC2 instances because the traffic is minimal, it keeps removing EC2 instances until it reaches a minimum capacity. Depending on your application, using a minimum of two is a good idea to ensure high availability, but you know how many EC2 instances at a bare minimum your application requires at all times. When reaching that limit, even if EC2 Auto Scaling is instructed to remove an instance, it does not, to ensure the minimum is kept.
 
@@ -82,7 +93,7 @@ The desired capacity is the amount of EC2 instances that EC2 Auto Scaling create
 ## Availability with EC2 Auto Scaling
 Different numbers for minimum, maximum, and desired capacity are used for dynamically adjusting the capacity. However, if you prefer to use EC2 Auto Scaling for fleet management, you can configure the three settings to the same number, for example four, as shown in the image. EC2 Auto Scaling will ensure that if an EC2 instance becomes unhealthy, it replaces it to always ensure that four EC2 instances are available. This ensures high availability for your applications.
 
-![aws-auto-scaling-groups-with-ec2](../assets/img/aws-auto-scaling-groups-with-ec2.png)
+> ![aws-auto-scaling-groups-with-ec2](../assets/img/aws-auto-scaling-groups-with-ec2.png)
 
 ## Automation with scaling policies
 By default, an Auto Scaling group will be kept to its initial desired capacity. While it’s possible to manually change the desired capacity, you can also use scaling policies.

@@ -1,5 +1,7 @@
 # Amazon CloudWatch
 
+> ![aws-cloudwatch](../assets/img/aws-cloudwatch.png)
+
 ### How CloudWatch works
 With CloudWatch, all you need to get started is an AWS account. It is a managed service that you can use for monitoring, without managing the underlying infrastructure. Monitoring the individual services independently could be challenging. CloudWatch acts as a centralized place where metrics are gathered and analyzed. You already learned how EC2 instances post CPU utilization as a metric to CloudWatch. Different AWS resources post different metrics that you can monitor. You can view a list of services that send metrics to CloudWatch in the Resources section.
 
@@ -8,6 +10,11 @@ Many AWS services send metrics automatically for free to CloudWatch at a rate of
 For applications running on EC2 instances, you can get more granularity by posting metrics every minute instead of every 5 minutes using a feature like detailed monitoring. Detailed monitoring incurs a fee.
 
 ## CloudWatch Metrics
+
+> ![aws-cloudwatch-metrics](../assets/img/aws-cloudwatch-metrics.png)
+>
+> Example: Amazon EC2 instance metrics
+
 Each metric in CloudWatch has a timestamp and is organized into containers called ***namespaces***. Metrics in different namespaces are isolated from each other – you can think of them as belonging to different categories.
 
 AWS services that send data to CloudWatch attach dimensions to each metric. A dimension is a name/value pair that is part of the metric’s identity. You can use dimensions to filter the results that CloudWatch returns. For example, you can get statistics for a specific EC2 instance by specifying the InstanceId dimension when you search.
@@ -39,6 +46,11 @@ You are not bound to using CloudWatch exclusively for all your visualization nee
 As far as security goes, you can control who has access to view or manage your CloudWatch dashboards through AWS Identity and Access Management (IAM) policies that get associated with IAM users, IAM groups, or IAM roles.
 
 ## Amazon CloudWatch Logs
+
+> ![aws-cloudwatch-logs](../assets/img/aws-cloudwatch-logs.png)
+>
+> Example: AWS Service logs
+
 CloudWatch can also be the centralized place for logs to be stored and analyzed, using Amazon CloudWatch Logs. CloudWatch Logs can monitor, store, and access your log files from applications running on Amazon EC2 instances, AWS Lambda functions, and other sources.
 
 CloudWatch Logs allows you to query and filter your log data. For example, suppose you’re looking into an application logic error for your application, and you know that when this error occurs it will log the stack trace. Since you know it logs the error, you query your logs in CloudWatch Logs to find the stack trace. You also set up metric filters on logs, which turn log data into numerical CloudWatch metrics that you can graph and use on your dashboards.
@@ -62,6 +74,11 @@ Log data sent to CloudWatch Logs can come from different sources, so it’s impo
 **Log groups**: Log streams are then organized into log groups. A ***log group*** is composed of log streams that all share the same retention and permissions settings. For example, if you have multiple EC2 instances hosting your application and you are sending application log data to CloudWatch Logs, you can group the log streams from each instance into one log group. This helps keep your logs organized.
 
 ## CloudWatch alarms
+
+> ![aws-cloudwatch-alarms](../assets/img/aws-cloudwatch-alarms.png)
+>
+> Example: Amazon EC2 instance alarms: CPU Utilization > 75
+
 You can create CloudWatch alarms to automatically initiate actions based on sustained state changes of your metrics. You configure when alarms are triggered and the action that is performed.
 
 You first must decide which metric you want to set an alarm for, and then you define the threshold that will trigger the alarm. Next, you define the threshold's time period. For example, if you want to set up an alarm for an EC2 instance to trigger when the CPU utilization goes over a threshold of 80%, you also must specify the time period the CPU utilization is over the threshold. You don’t want to trigger an alarm based on short temporary spikes in the CPU. You only want to trigger an alarm if the CPU is elevated for a sustained amount of time. For example, if CPU utilization is over 80% for 5 minutes or longer, there might be a resource issue. Keeping all that in mind, to set up an alarm you need to choose the metric, threshold, and time period.

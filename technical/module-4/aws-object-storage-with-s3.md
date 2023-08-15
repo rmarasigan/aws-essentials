@@ -1,6 +1,9 @@
 # Object Storage with Amazon Simple Storage Service
 
 ## Amazon S3
+
+> ![amazon-s3](../assets/img/amazon-s3.png)
+
 Unlike Amazon Elastic Block Store (Amazon EBS), Amazon Simple Storage Service (Amazon S3) is a standalone storage solution that isn’t tied to compute. It enables you to retrieve your data from anywhere on the web. If you have used an online storage service to back up the data from your local machine, then you most likely have used a service similar to Amazon S3. The big difference between those online storage services and Amazon S3 is the storage type.
 
 Amazon S3 is an object storage service. Object storage stores data in a flat structure, using unique identifiers to look up objects when requested. An object is  a file combined with metadata. You can store as many of these objects as you’d like. All of the characteristics of object storage are also characteristics of Amazon S3.
@@ -37,7 +40,7 @@ Everything in Amazon S3 is private by default. This means that all S3 resources,
 
 If you decide that you want everyone on the internet to see your photos, you can choose to make your buckets, folders, and objects public. A public resource means that everyone on the internet can see it. Most of the time, you don’t want your permissions to be all or nothing. Typically, you want to be more granular about the way you provide access to your resources.
 
-![aws-s3-access](../assets/img/aws-s3-access.png)
+> ![aws-s3-access](../assets/img/aws-s3-access.png)
 
 To be more specific about who can do what with your Amazon S3 resources, Amazon S3 provides two main access management features – IAM policies and S3 bucket policies.
 
@@ -93,7 +96,7 @@ This can be an issue for several reasons, including the following:
 
 To counteract these issues, you can use S3 versioning. Versioning keeps multiple versions of a single object in the same bucket. This preserves old versions of an object without using different names, which helps with file recovery from accidental deletions, accidental overwrites, or  application failures.
 
-![aws-s3-example-object](../assets/img/aws-s3-example-object.png)
+> ![aws-s3-example-object](../assets/img/aws-s3-example-object.png)
 
 If you enable versioning for a bucket, Amazon S3 automatically generates a unique version ID for the object. In one bucket, for example, you can have two objects with the same key, but different version IDs, such as employeephoto.gif (version 111111) and employeephoto.gif (version 121212).
 

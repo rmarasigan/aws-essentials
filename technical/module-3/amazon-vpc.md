@@ -1,13 +1,13 @@
 # Amazon Virtual Private Cloud
 
-A virtual private cloud (VPC) is an isolated network that you create in the AWS Cloud, similar to a traditional network in a data center. When you create a VPC, you must choose three main factors:
+A **virtual private cloud (VPC)** is an isolated network that you create in the AWS Cloud, similar to a traditional network in a data center. When you create a VPC, you must choose three main factors:
 * Name of the VPC
 * Region where the VPC will live. Each VPC spans multiple Availability Zones within the selected Region
 * IP range for the VPC in CIDR notation. This determines the size of your network. Each VPC can have up to four /16  IP ranges
 
 Using this information, AWS will provision a network and IP addresses for that network
 
-![aws vpc](../assets/img/aws-vpc.png)
+> ![aws vpc](../assets/img/aws-vpc.png)
 
 ## Create a subnet
 After you create your VPC, you must create subnets inside the network. Think of subnets as smaller networks inside your base network – or **virtual local area networks (VLANs)** in a traditional, on-premises network. In an **on-premises network**, the typical use case for subnets is to isolate or optimize network traffic. In AWS, subnets are used to provide high availability and connectivity options for your resources.
@@ -19,7 +19,7 @@ When you create a subnet, you must specify the following:
 
 When you launch an EC2 instance, you launch it inside a subnet, which will be located inside the Availability Zone you choose.
 
-![aws vpc subnet](../assets/img/aws-vpc-subnet.png)
+> ![aws vpc subnet](../assets/img/aws-vpc-subnet.png)
 
 ## High availability with a VPC
 When you create your subnets, keep high availability in mind. To maintain redundancy and fault tolerance, create at least two subnets configured in two Availability Zones.

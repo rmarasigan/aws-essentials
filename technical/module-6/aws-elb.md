@@ -9,6 +9,10 @@ A typical request for an application starts from a client's browser. The request
 
 Although it is possible to install your own software load balancing solution on EC2 instances, AWS provides a service for you called Elastic Load Balancing.
 
+> ![aws-elb-benefits](../assets/img/aws-elb-benefits.png)
+>
+> ELB Benefits
+
 ## ELB features
 The ELB service provides a major advantage over using your own solution to do load balancing – mainly, you don’t need to manage or operate it. It can distribute incoming application traffic across EC2 instances, containers, IP addresses, and AWS Lambda functions. Other key features include the following:
 * Because ELB can load balance to IP addresses, it can work in a hybrid mode, which mean it also load balances to on-premises servers.

@@ -19,7 +19,8 @@
 * [Container Services](technical/module-2/container-services.md)
 * [Serverless](technical/module-2/serverless.md)
 * [AWS Lambda](technical/module-2/aws-lambda.md)
-* [Networking](technical/module-3/networking.md)
+
+### [Networking](technical/module-3/networking.md)
 * [Amazon Virtual Private Cloud](technical/module-3/amazon-vpc.md)
 * [Amazon VPC Routing](technical/module-3/amazon-vpc-routing.md)
 * [Amazon VPC Security](technical/module-3/amazon-vpc-security.md)

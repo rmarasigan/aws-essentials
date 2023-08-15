@@ -2,6 +2,8 @@
 
 AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.
 
+> ![aws-lambda-1](../assets/img/aws-lambda-1.png)
+
 ## Go serverless
 Every definition of serverless mentions the following four aspects:
 * No servers to provision or manage
@@ -32,7 +34,7 @@ AWS Lambda requires zero administration from the user. You upload your source co
 ## How AWS Lambda works
 A Lambda function has three primary components – **trigger**, **code**, and **configuration**.
 
-![aws lambda](../assets/img/aws-lambda.jpg)
+> ![aws lambda](../assets/img/aws-lambda.jpg)
 
 The **code** is source code that describes what the Lambda function should run. It can be authored in three ways.
 * You create the code from scratch.

@@ -27,6 +27,8 @@ Amazon Relational Database Service (Amazon RDS) creates metrics such as database
 ## Monitoring benefits
 Monitoring gives you visibility into your resources, but the question now is, "Why is that important?"
 
+> ![monitoring-benefits](../assets/img/monitoring-benefits.png)
+
 ### Respond to operational issues proactively before your end users are aware of them.
 Waiting for end users to let you know when your application is experiencing an outage is a bad practice. Through monitoring, you can keep tabs on metrics like error response rate and request latency. Over time, the metrics help signal when an outage is going to occur. This enables you to automatically or manually perform actions to prevent the outage from happening, and fix the problem before your end users are aware of it.
 

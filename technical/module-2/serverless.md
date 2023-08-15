@@ -1,4 +1,7 @@
 # Serverless
+
+> ![serverless-compute](../assets/img/serverless-compute.png)
+
 **Serverless** allows you to build and run applications and services without thinking about servers. It eliminates infrastructure management tasks such as server or cluster provisioning, patching, operating system maintenance, and capacity provisioning. Serverless applications are event-driven and loosely coupled via technology-agnostic APIs or messaging. Event-driven code is executed in response to an event, such as a change in state or an endpoint request. Event-driven architectures decouple code from state. Integration between loosely couple components is usually done asynchronously, with messaging.
 
 ***AWS Lambda*** is a serverless compute service that is well suited to event-driven architectures. Lambda functions are triggered by events via integrated event sources such as Amazon Simple Queue Service (SQS), Amazon Simple Notification Service (SNS), and Amazon Kinesis that can be used to create asynchronous integrations. Lambda functions consume and produce events that other services can then consume.

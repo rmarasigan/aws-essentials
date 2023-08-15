@@ -1,16 +1,18 @@
 # Amazon Relational Database Service
 
+> ![amazon-rds](../assets/img/amazon-rds.png)
+
 *Amazon Relational Database Service (Amazon RDS)* lets customers create and manage relational databases in the cloud without the operational burden of traditional database management. For example, if you sell healthcare equipment and your goal is to be the number-one seller in the Pacific Northwest, building a database doesn’t directly help you achieve that goal, although having a database is necessary to achieve the goal.
 
 Amazon RDS offloads some of the unrelated work of creating and managing a database. You can focus on the tasks that differentiate your application, instead of focusing on infrastructure-related tasks, like provisioning, patching, scaling, and restoring.
 
 Amazon RDS supports most of the popular relational database management systems, ranging from commercial options, open source options, and even an AWS-specific option. The supported Amazon RDS engines are:
 
-* **Commercial**: Oracle, SQL Server
+* **Commercial**: Oracle, Microsoft SQL Server (MSSQL)
 * **Open Source**: MySQL, PostgreSQL, MariaDB
 * **Cloud Native**: Amazon Aurora
 
-![aws-rds-engines](../assets/img/aws-rds-engines.png)
+> ![aws-rds-engines](../assets/img/aws-rds-engines.png)
 
 The cloud native option, Amazon Aurora, is a MySQL- and PostgreSQL-compatible database built for the cloud. It is more durable, more available, and provides faster performance than the Amazon RDS version of MySQL and PostgreSQL. To learn more about Amazon Aurora, view the Amazon Aurora FAQs.
 
@@ -50,6 +52,9 @@ Using these controls provide layers of security for your infrastructure. It rein
 Network ACLs and security groups help users dictate the flow of traffic. If you want to restrict the actions and resources others can access, you can use IAM policies.
 
 ### Backup data
+
+> ![rds-database-backup](../assets/img/rds-database-backup.png)
+
 You don’t want to lose you data. To take regular backups of your RDS instance, you can use:
 
 * Automatic backups
