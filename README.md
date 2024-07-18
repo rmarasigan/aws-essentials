@@ -47,7 +47,7 @@
 ### [AWS Cloud Practitioner Essentials](cloud-practitioner-essentials/README.md)
 * [Introduction to AWS](cloud-practitioner-essentials/introduction.md)
 * Compute in the Cloud
-  * [AWS Elastic Container Computer](cloud-practitioner-essentials/aws-ec2.md)
+  * [AWS Elastic Compute Cloud (Amazon EC2)](cloud-practitioner-essentials/aws-ec2.md)
   * [AWS EC2 Auto Scaling](cloud-practitioner-essentials/aws-ec2-auto-scaling.md)
   * [Elastic Load Balancing](cloud-practitioner-essentials/elastic-load-balancing.md)
   * [AWS Messaging Services](cloud-practitioner-essentials/aws-messaging-services.md)

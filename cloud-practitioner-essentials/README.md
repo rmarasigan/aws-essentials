@@ -2,7 +2,7 @@
 
 * [**Introduction to AWS**](introduction.md)
 * **Compute in the Cloud**
-  * [AWS Elastic Container Computer](aws-ec2.md)
+  * [AWS Elastic Compute Cloud (Amazon EC2)](aws-ec2.md)
   * [AWS EC2 Auto Scaling](aws-ec2-auto-scaling.md)
   * [Elastic Load Balancing](elastic-load-balancing.md)
   * [AWS Messaging Services](aws-messaging-services.md)

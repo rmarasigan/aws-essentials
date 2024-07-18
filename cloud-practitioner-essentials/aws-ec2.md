@@ -1,35 +1,89 @@
 # Amazon Elastic Compute Cloud (Amazon EC2)
 
-![aws ec2](assets/img/aws-ec2.png)
+Amazon EC2 provides pay-as-you-go pricing and a broad selection of hardware and software that's available via the AWS Marketplace by using Amazon Machine Images (AMIs)
 
-* Use secure, sizable compute capacity
-* Boot server instances in minutes
+<img src = "assets/img/amazon-ec2-ami.png" width = "50%" height = "50%"/>
+
+Template for:
+<ul>
+  <li>Storage volumes</li>
+  <li>Launch permissions</li>
+  <li>A block device mapping</li>
+</ul>
+
+<br />
+
+<b>Examples</b>
+<ul>
+  <li>Application server</li>
+  <li>Web server</li>
+  <li>Database server</li>
+  <li>Game server</li>
+  <li>Mail server</li>
+  <li>Media server</li>
+  <li>Catalog server</li>
+  <li>File server</li>
+</ul>
+
 * Pay only for what you use
+* Resizable compute capacity
+* Complete control of your computing resources
+* Reduced time required to obtain and boot new server instances
 
-## How Amazon EC2 Works
-![how-ec2-works](assets/img/how-ec2-works.png)
+### Virtual Machines vs. Physical Servers
+Amazon EC2 can solve some problems that are more difficult with an on-premises server.
 
-### Instance Types
+When using disposable resources:
+
+<img src = "assets/img/when-using-disposable-resources.png" width = "60%" />
+
+### Benefits of Amazon EC2
+* Elasticity
+* Control
+* Flexibility
+* Integrated
+* Reliable
+* Secure
+* Inexpensive
+* Simple
+
+### Amazon EC2 Instance Families and Names
+Choosing the correct type is very important for **efficient use of your instances and cost reduction**.
 
 #### General Purpose
-* Balances compute, memory, and networking resources
 * Suitable for a broad range of workloads
+* Balances compute, memory, and networking resources
+* **Use cases**
+  * Small databases and midsize databases
+  * Low-traffic websites and web applications
 
 #### Compute Optimized
 * Offers high-performance processors
 * Ideal for compute-intensive applications and batch processing workloads
+* **Use cases**
+  * Video encoding
+  * High-performance web servers
 
 #### Memory Optimized
 * Delivers fast performance for memory-intensve workloads
 * Well suited for high-performance databases
-
-#### Accelerated Computing
-* Uses hardware accelerators to expedite data processing
-* Ideal for application streaming and graphics workloads
+* **Use cases**
+  * Distributed memory caches
+  * High-performance databases
 
 #### Storage Optimized
 * Offers low latency and high input/output operations per seconds (IOPS)
 * Suitable for workloads such as distributed file systems and data warehousing applications
+* **Use cases**
+  * Data warehousing
+  * Log or data processing applications
+
+#### Accelerated Computing
+* Uses hardware accelerators to expedite data processing
+* Ideal for application streaming and graphics workloads
+* **Use cases**
+  * 3D visualizations
+  * Machine learning
 
 ### Instance Pricing Options
 
@@ -57,3 +111,6 @@
 #### Dedicated Host
 * A *physical server* with EC2 instance capacity for a single customer
 * Most expensive Amazon EC2 option
+
+### How Amazon EC2 Works
+<img src = "assets/img/how-ec2-works.png" width = "60%" />
