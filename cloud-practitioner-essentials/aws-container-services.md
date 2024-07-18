@@ -1,8 +1,7 @@
 # AWS Container Services
 
 ### What are containers?
-
-![containers](assets/img/containers.png)
+<img src = "assets/img/containers.png" width = "50%" />
 
 Containers provide a standard way to package your application's code, configurations, and dependencies into a single object. Containers share an operating system installed on the server and run as resource-isolated processes, ensuring quick, reliable, and consistent deployments, regardless of environment.
 
@@ -14,6 +13,9 @@ Containers are a powerful way for developers to package and deploy their applica
 * **Choice**
 * **AWS Integrations**
 
+### Running containers on AWS
+<img src = "assets/img/running-containers-on-aws.png" width = "50%" />
+
 ## AWS Container Orchestration Services
 ### Amazon Elastic Container Service (Amazon ECS)
 * Run and scale containerized applications
@@ -23,7 +25,7 @@ Containers are a powerful way for developers to package and deploy their applica
 * Run and scale Kubernetes applications
 * Readily update applications with new features
 
-## AWS Fargate
+### AWS Fargate
 * Run serverless containers with Amazon ECS or Amazon EKS
 * Pay only for the resources you use
 
