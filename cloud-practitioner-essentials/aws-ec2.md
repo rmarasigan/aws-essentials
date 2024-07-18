@@ -2,6 +2,11 @@
 
 Amazon EC2 provides pay-as-you-go pricing and a broad selection of hardware and software that's available via the AWS Marketplace by using Amazon Machine Images (AMIs)
 
+* Pay only for what you use
+* Resizable compute capacity
+* Complete control of your computing resources
+* Reduced time required to obtain and boot new server instances
+
 <img src = "assets/img/amazon-ec2-ami.png" width = "50%" height = "50%"/>
 
 Template for:
@@ -24,11 +29,6 @@ Template for:
   <li>Catalog server</li>
   <li>File server</li>
 </ul>
-
-* Pay only for what you use
-* Resizable compute capacity
-* Complete control of your computing resources
-* Reduced time required to obtain and boot new server instances
 
 ### Virtual Machines vs. Physical Servers
 Amazon EC2 can solve some problems that are more difficult with an on-premises server.
