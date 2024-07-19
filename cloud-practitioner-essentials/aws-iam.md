@@ -6,10 +6,20 @@ Securely control access to your AWS resources
 * Share temporary access to your AWS account
 * Federate users in your corporate network or with an internet identity provider
 
-<img src = "assets/img/aws-iam-features.png" width = "60%" />
+### IAM Features
+* IAM User
+* IAM Policy
+* IAM Group
+* IAM Role
+* MFA
 
 ## AWS Account Root User
-<img src = "assets/img/aws-account-root-user.png" width = "60%" />
+```mermaid
+graph LR
+    A[Create an AWS account. This establishes your root user identity.] --> B[Create your first IAM user and give it permissions to create other users.]
+    B --> C[Log in as the new IAM user and continue to create other users.]
+    B --> D[Only access root user for a limited number of tasks.]
+```
 
 ## IAM User
 An **IAM User** is an identity that represents a person or application that interacts with AWS services and resources.
@@ -42,14 +52,29 @@ An **IAM Group** is a collection of IAM users.
 
 Members inherit the policies assigned to the group.
 
-<img src = "assets/img/aws-iam-group.png" width = "60%" />
+```mermaid
+graph TD
+    A['Cashier' IAM Group] --> B[Cashier 1]
+    A --> C[Cashier 2]
+    A --> D[Cashier 3]
+```
 
 ## IAM Roles
 An IAM Role is an identity that you can assume to gain temporary access to permissions.
 
-<img src = "assets/img/aws-iam-role-example.png" width = "60%" />
+```mermaid
+graph LR
+
+    A[The owner gives the employee permissions to switch to specific roles] --> B['Cashier' Role: The employee assumes the 'Cashier' role. This grants them access to the cash register system.]
+    B --> C['Inventory' Role: The employee assumes the 'Inventory' Role. This grants them access to the inventory system and revokes their access to the cash register system.]
+```
 
 ## Multi-factor Authentication
 **Multi-factor authentication** provides an extra layer of protection for your AWS account.
 
-<img src = "assets/img/aws-iam-mfa.png" width = "60%" />
+```mermaid
+graph LR
+
+    A[To sign in to AWS website, a user enters their IAM user ID and password.] --> B[The user is prompted to provide an authentication response from their AWS MFA device.]
+    B --> C[The user is successfully authenticated and can access the requested AWS services or resources.]
+```
