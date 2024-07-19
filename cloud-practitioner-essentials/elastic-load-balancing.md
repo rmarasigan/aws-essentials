@@ -1,12 +1,14 @@
 # Elastic Load Balancing
+
+A managed load balancing service service that distributes incoming application traffic across multiple Amazon EC2 instances, containers, and IP addresses.
+
+* High availability, health checks, security features
 * Automatically distributes traffic across multiple resources
 * Provides a single point of contact for your Auto Scaling group
 
-> ![scalability-and-load-balancing](assets/img/scalability-and-load-balancing.png)
->
-> *Scalability and load balancing*
+<img src = "assets/img/scalability-and-load-balancing.png" width = "60%" /><br />
 
-**Elastic Load Balancing** automatically distributes incoming application traffic across multiple Amazon EC2 instances. It enables you to achieve greater levels of fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to distribute application traffic. Elastic Load Balancing detects unhealthy instances and automatically reroutes traffic to healthy instances until the unhealthy instances have been restored. Customers can enable Elastic Load Balancing within a single or multiple Availability Zones for more consistent application performance. Elastic Load Balancing can also be used in an Amazon Virtual Private Cloud (“VPC”) to distribute traffic between application tiers in a virtual network that you define.
+It enables you to achieve greater levels of fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to distribute application traffic. Elastic Load Balancing detects unhealthy instances and automatically reroutes traffic to healthy instances until the unhealthy instances have been restored. Customers can enable Elastic Load Balancing within a single or multiple Availability Zones for more consistent application performance. Elastic Load Balancing can also be used in an Amazon Virtual Private Cloud ("VPC") to distribute traffic between application tiers in a virtual network that you define.
 
 ## Application Load Balancer (HTTP & HTTPS)
 Application Load Balancer is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers. Application Load Balancer routes traffic to targets within Amazon VPC based on the content of the request.

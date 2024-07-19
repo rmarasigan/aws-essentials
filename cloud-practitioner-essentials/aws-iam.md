@@ -1,11 +1,15 @@
 # AWS Identity and Access Management (IAM)
 **AWS Identity and Access Management (IAM)** is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources. AWS Identity and Access Management (IAM) allows you to manage acces to AWS services and resources.
 
-> ![AWS IAM Features](assets/img/aws-iam-features.png)
+Securely control access to your AWS resources
+* Assign granular permissions to users, groups, or roles
+* Share temporary access to your AWS account
+* Federate users in your corporate network or with an internet identity provider
+
+<img src = "assets/img/aws-iam-features.png" width = "60%" />
 
 ## AWS Account Root User
-
-> ![AWS Account Root User](assets/img/aws-account-root-user.png)
+<img src = "assets/img/aws-account-root-user.png" width = "60%" />
 
 ## IAM User
 An **IAM User** is an identity that represents a person or application that interacts with AWS services and resources.
@@ -38,14 +42,14 @@ An **IAM Group** is a collection of IAM users.
 
 Members inherit the policies assigned to the group.
 
-> ![aws-iam-group](assets/img/aws-iam-group.png)
+<img src = "assets/img/aws-iam-group.png" width = "60%" />
 
 ## IAM Roles
 An IAM Role is an identity that you can assume to gain temporary access to permissions.
 
-> ![AWS IAM Role Example](assets/img/aws-iam-role-example.png)
+<img src = "assets/img/aws-iam-role-example.png" width = "60%" />
 
 ## Multi-factor Authentication
 **Multi-factor authentication** provides an extra layer of protection for your AWS account.
 
-> ![AWS Multi-factor Authentication](assets/img/aws-iam-mfa.png)
+<img src = "assets/img/aws-iam-mfa.png" width = "60%" />
