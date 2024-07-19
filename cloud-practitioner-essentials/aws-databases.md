@@ -1,17 +1,38 @@
 # AWS Databases
 
-> ![database-types](assets/img/database-types.png)
->
-> Database Types
+### DIY (Unmanaged services) Compared to AWS Database Services (Managed services)
+
+#### Databases on Amazon EC2
+* Operating system access
+* Need features of specific application
+
+#### AWS Database Services
+* Simple to set up, manage, maintain
+* Push-button high availability
+* Focus on performance
+* Managed infrastructure
+
+### Purpose-built databases
+
+<img src = "assets/img/purpose-build-databases.png" width = "60%" />
+
+### AWS Database Options
+
+<img src = "assets/img/aws-database-options.png" width = "60%" />
 
 ### Relational databases
 * In a relational database, data is stored in a way that relates it to other pieces of data
 * Relational dabases use structured query language (SQL) to store and query data
 
 ### [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
-> ![amazon-rds](assets/img/amazon-rds.png)
 
-#### Amazon RDS Database Engines
+Set up, operate, and scale a relational database in the cloud with just a few clicks.
+
+* Operate and scale a relational database in the AWS Cloud
+* Automate time-consuming administrative tasks
+* Store and transmit data securely
+
+**Amazon RDS Database Engines**
 * Amazon Aurora
 * PostgreSQL
 * MySQL
@@ -19,11 +40,19 @@
 * Oracle Database
 * Microsoft SQL Server
 
-### [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
-> ![amazon-aurora](assets/img/amazon-aurora.png)
+<img src = "assets/img/aws-rds.png" width = "60%" />
 
-### Nonrelational Databases
-* A **nonrelational databases** uses structures other than rows and colums to organize data
+### [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
+Relational database built for the cloud; compatible with MySQL and PostgreSQL.
+
+* Store data in an enterprise-class relational database
+* Reduce database costs by eliminating unnecessary input/output (I/O) operations
+* Replicate six copies of data across three Availability Zones
+
+<img src = "assets/img/amazon-aurora.png" width = "60%" />
+
+### Non-relational Databases
+* A **non-relational databases** uses structures other than rows and colums to organize data
 * For example, with **key-value pairs**, data is organized into items (keys), and items have attributes (values)
 
     Example:
@@ -51,17 +80,23 @@
     </table>
 
 ### [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
-> ![amazon-dynamodb](assets/img/amazon-dynamodb.png)
+Fast and flexible NoSQL database service for any scale.
+
+* Amazon DynamoDB is a *serverless* key-value database
+* It automatically scales to adjust for capacity changes and maintain consistent performance
+* It is designed to handle over 10 trillion requests per day
+
+<img src = "assets/img/amazon-dynamodb.png" width = "60%" />
 
 ### [AWS Database Migration Service](https://aws.amazon.com/dms/)
 Migrate relational databases, nonrelational databases, and other types of data stores.
 
-> ![AWS Database Migration Service](assets/img/amazon-database-migration.png)
+<img src = "assets/img/amazon-database-migration.png" width = "60%" />
 
 ### Amazon RDS and Amazon DynamoDB
 For each scenario, should you use Amazon RDS or Amazon DynamoDB?
 
-> ![amazon-rds-dynamodb](assets/img/amazon-rds-dynamodb.png)
+<img src = "assets/img/amazon-rds-dynamodb.png" width = "60%" />
 
 ## Additional Database Services
 * [**Amazon Redshift**](https://aws.amazon.com/redshift/)
